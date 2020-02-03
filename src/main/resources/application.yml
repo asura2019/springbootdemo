@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    name: test
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=gbk&autoReconnect=true&failOverReadOnly=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+#  mvc:
+ #   view:
+  #    prefix : /web/
+   #   suffix : .html
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: demo.entity

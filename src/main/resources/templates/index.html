@@ -5,15 +5,28 @@
     <title>登录成功</title>
     <style>
         body{
-           background: url("http://b-ssl.duitang.com/uploads/item/201411/19/20141119212339_seHfw.jpeg") no-repeat left top;
+           background: url("../images/2.jpeg") no-repeat left top;
             background-size: 100%;
         }
     </style>
 </head>
+<script type="text/javascript">
+    //获取basePath，测试的话就能用就完了
+    var obj = window.document.location;
+    var BASE_PATH = obj.href.substring(0, obj.href.indexOf(obj.pathname));
+    //请求渲染模拟
+    /*$.ajax({
+        url: BASE_PATH + "/findAll",
+        type: "get",
+        success: function f(data) {
+            $("#username").val(data.username);
+            $("#password").val(data.password);
+        }
+    })*/
+</script>
 <body style="margin: auto">
 <div>
     <h1>用户名与密码正确，登录成功！！！</h1>
-
 </div>
 
 

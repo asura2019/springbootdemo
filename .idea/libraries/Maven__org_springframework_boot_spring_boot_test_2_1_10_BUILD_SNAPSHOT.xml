@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.boot:spring-boot-test:2.1.10.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-test/2.1.10.BUILD-SNAPSHOT/spring-boot-test-2.1.10.BUILD-20191024.113230-18.jar!/" />
+      <root url="jar://E:/.m2/repository/org/springframework/boot/spring-boot-test/2.1.10.BUILD-SNAPSHOT/spring-boot-test-2.1.10.BUILD-20191106.095457-40.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-test/2.1.10.BUILD-SNAPSHOT/spring-boot-test-2.1.10.BUILD-20191024.113230-18-javadoc.jar!/" />
+      <root url="jar://E:/.m2/repository/org/springframework/boot/spring-boot-test/2.1.10.BUILD-SNAPSHOT/spring-boot-test-2.1.10.BUILD-20191106.095457-40-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-test/2.1.10.BUILD-SNAPSHOT/spring-boot-test-2.1.10.BUILD-20191024.113230-18-sources.jar!/" />
+      <root url="jar://E:/.m2/repository/org/springframework/boot/spring-boot-test/2.1.10.BUILD-SNAPSHOT/spring-boot-test-2.1.10.BUILD-20191106.095457-40-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

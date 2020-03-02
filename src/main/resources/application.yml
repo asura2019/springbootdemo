@@ -6,12 +6,12 @@ spring:
     name: test
     url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=gbk&autoReconnect=true&failOverReadOnly=false
     username: root
-    password: root
+    password:
     driver-class-name: com.mysql.jdbc.Driver
-#  mvc:
- #   view:
-  #    prefix : /web/
-   #   suffix : .html
+  mvc:
+    view:
+      prefix : /templates/
+      suffix : .jsp
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
